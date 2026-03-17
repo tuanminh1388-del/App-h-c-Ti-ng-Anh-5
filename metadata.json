@@ -1,0 +1,5 @@
+{
+  "name": "Wonderful World AI English",
+  "description": "An AI-powered English learning app for Vietnamese primary students based on the Wonderful World series, featuring visual sentence thinking and guided writing.",
+  "requestFramePermissions": ["microphone"]
+}

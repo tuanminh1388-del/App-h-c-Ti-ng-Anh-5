@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-sky-50 text-slate-900 font-sans;
+  }
+}
+
+.block-who { @apply bg-rose-400 text-white; }
+.block-do-what { @apply bg-amber-400 text-white; }
+.block-what { @apply bg-emerald-400 text-white; }
+.block-where { @apply bg-sky-400 text-white; }
+.block-when { @apply bg-indigo-400 text-white; }
+.block-how { @apply bg-violet-400 text-white; }
+
+.writing-step-active { @apply border-sky-500 bg-sky-100; }
+.writing-step-done { @apply border-emerald-500 bg-emerald-50; }
+
